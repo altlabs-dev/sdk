@@ -1,0 +1,1 @@
+export { shortAddressFilter } from './short-address-filter'
