@@ -20,11 +20,13 @@ yarn add @altlabs/sdk
 import {
     type BigintIsh,
     shortAddressFilter,
-    MaxUint256,
+    ZERO_ADDRESS,
+    MAX_UINT_256,
     erc20ABI,
     erc721ABI,
     erc1155ABI
 } from '@altlabs/sdk'
 
-console.log(MaxUint256)
+console.log(shortAddressFilter(ZERO_ADDRESS))
+console.log(MAX_UINT_256.toString())
 ```
