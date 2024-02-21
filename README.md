@@ -19,14 +19,18 @@ yarn add @altlabs/sdk
 ```ts
 import {
     type BigintIsh,
-    shortAddressFilter,
     ZERO_ADDRESS,
     MAX_UINT_256,
+    shortAddressFilter,
+    formatNumber,
     erc20ABI,
     erc721ABI,
     erc1155ABI
 } from '@altlabs/sdk'
 
-console.log(shortAddressFilter(ZERO_ADDRESS))
-console.log(MAX_UINT_256.toString())
+shortAddressFilter(ZERO_ADDRESS) // 0x000...0000
+
+console.log(MAX_UINT_256.toString() // 11579...
+
+formatNumber(10000) // 10K
 ```

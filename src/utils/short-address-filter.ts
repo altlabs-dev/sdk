@@ -1,3 +1,3 @@
-export function shortAddressFilter(value = '') {
-    return `${ value.slice(0, 5) }...${ value.slice(-4) }`
+export function shortAddressFilter (address: string) {
+    return `${ address.slice(0, 5) }...${ address.slice(-4) }`
 }
