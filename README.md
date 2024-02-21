@@ -30,7 +30,7 @@ import {
 
 shortAddressFilter(ZERO_ADDRESS) // 0x000...0000
 
-console.log(MAX_UINT_256.toString() // 11579...
+MAX_UINT_256.toString() // 11579...
 
 formatNumber(10000) // 10K
 ```
