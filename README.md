@@ -19,6 +19,7 @@ yarn add @altlabs/sdk
 ```ts
 import {
     type BigintIsh,
+    type Address,
     ZERO_ADDRESS,
     MAX_UINT_256,
     shortAddressFilter,

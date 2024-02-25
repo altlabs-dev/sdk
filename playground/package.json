@@ -1,17 +1,17 @@
 {
   "name": "playground",
   "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun index.ts"
+  },
+  "dependencies": {
+    "@altlabs/sdk": "link:.."
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  },
-  "scripts": {
-    "start": "bun index.ts"
-  },
-  "type": "module",
-  "dependencies": {
-    "@altlabs/sdk": "link:.."
   }
 }
