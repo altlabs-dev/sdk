@@ -1,6 +1,6 @@
 {
   "name": "@altlabs/sdk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The set of functions that we use.",
   "author": "AltLabs",
   "license": "MIT",
